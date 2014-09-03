@@ -13,7 +13,7 @@ size.of.set <- 1000000
 percentage.spam <- .05
 
 ## getting the file names
-all.files <- system("ls",intern=TRUE)
+all.files <- system("ls data/",intern=TRUE)
 files <- all.files[grep(".out",all.files)]
 num.files <- length(files)
 
